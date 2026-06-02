@@ -2352,6 +2352,14 @@ color:#000!important;
 }
 }
 @media screen and (max-width:479px) {
+    .contact-info-section .contact-info-container .contact-info-right{
+        width: 100%;
+    }
+        .our-promise-btn-wrapper-ex {
+            width: 100%;
+            justify-content: space-between;
+            gap:.25rem;
+        }
     .menu-close{
     height: 2.5rem;
     width: 2.5rem;
@@ -2422,6 +2430,8 @@ height: 18rem;
 }
 .our-work-btn-wrapper .cta-1{
     font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .our-work-btn-wrapper{
     gap:1rem;
