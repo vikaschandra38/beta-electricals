@@ -1813,7 +1813,7 @@ header {
     object-fit: contain;
 }
 
-.navigation-container .nav-links-container .nav-links li a.active {
+.nav-links li a.active {
     color: #FAE255;
 }
 
