@@ -47,3 +47,30 @@ for ( let i = 0, splideLength = splides.length; i < splideLength; i++ ) {
 }
 
 slider2();
+
+
+$(document).ready(function(){
+
+  /* OPEN MENU */
+  $("#menu-btn").on("click", function(){
+
+    $(".mobile-nav").addClass("active");
+
+  });
+
+  /* CLOSE MENU */
+  $("#menu-close").on("click", function(){
+
+    $(".mobile-nav").removeClass("active");
+
+  });
+
+    /* CLOSE MENU */
+  $(".mobile-nav li a").on("click", function(){
+
+    $(".mobile-nav").removeClass("active");
+
+  });
+
+
+});
