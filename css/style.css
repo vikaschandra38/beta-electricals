@@ -1814,7 +1814,7 @@ header {
 }
 
 .nav-links li a.active {
-    color: #FAE255;
+    color: #FAE255!important;
 }
 
 @media screen and (max-width:1440px) and (min-width:1200px) {
